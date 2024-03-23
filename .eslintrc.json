@@ -15,5 +15,12 @@
     "consistent-return": "off",
     "jest/expect-expect": "off",
     "security/detect-object-injection": "off"
-  }
+  },
+  "prettier/prettier": [
+    "error",
+    {
+      "singleQuote": true,
+      "parser": "flow"
+    }
+  ]
 }
